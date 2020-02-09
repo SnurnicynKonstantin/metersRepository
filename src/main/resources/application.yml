@@ -1,0 +1,11 @@
+management:
+  info.git.mode: full
+  endpoints.web:
+    base-path: /
+    path-mapping.health: /status
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: Lineate!
+    driver-class-name: org.postgresql.Driver
